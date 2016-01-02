@@ -60,7 +60,7 @@ print('start time:\t', time.ctime())
 
 total = set()
 ans = ''
-outputfile = open('24_all_data.txt', mode='w', buffering=-1)
+outputfile = open('24_answer.txt', mode='w', buffering=-1)
 
 twenty_four_calc()
 outputfile.close()
